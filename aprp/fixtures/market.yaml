@@ -1,0 +1,16 @@
+-   model: aprp.market
+    pk: 1
+    fields:
+        name: "\u53F0\u5317\u4E00"
+-   model: aprp.market
+    pk: 2
+    fields:
+        name: "\u53F0\u5317\u4E8C"
+-   model: aprp.market
+    pk: 3
+    fields:
+        name: "桃園市"
+-   model: aprp.market
+    pk: 4
+    fields:
+        name: "新竹市"

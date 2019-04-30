@@ -1,0 +1,28 @@
+-   model: aprp.category
+    pk: 1
+    fields:
+        name: "\u852C\u83DC"
+-   model: aprp.category
+    pk: 2
+    fields:
+        name: "\u6C34\u679C"
+-   model: aprp.category
+    pk: 3
+    fields:
+        name: "\u6BDB\u8C6C"
+-   model: aprp.category
+    pk: 4
+    fields:
+        name: "\u7F8A"
+-   model: aprp.category
+    pk: 5
+    fields:
+        name: "\u96DE"
+-   model: aprp.category
+    pk: 6
+    fields:
+        name: "\u9D28"
+-   model: aprp.category
+    pk: 7
+    fields:
+        name: "\u725B"

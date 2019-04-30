@@ -1,0 +1,42 @@
+-   model: aprp.product
+    pk: 1
+    fields:
+        name: "\u5927\u849C"
+        category: 1
+        market: 1
+-   model: aprp.product
+    pk: 2
+    fields:
+        name: "\u5927\u849C"
+        category: 1
+        market: 2
+-   model: aprp.product
+    pk: 3
+    fields:
+        name: "\u7518\u85AF"
+        category: 1
+        market: 1
+-   model: aprp.product
+    pk: 4
+    fields:
+        name: "\u9752\u8525"
+        category: 1
+        market: 2
+-   model: aprp.product
+    pk: 5
+    fields:
+        name: "\u9999\u8549"
+        category: 2
+        market: 1
+-   model: aprp.product
+    pk: 6
+    fields:
+        name: "\u692A\u67D1"
+        category: 2
+        market: 2
+-   model: aprp.product
+    pk: 7
+    fields:
+        name: "\u897F\u74DC"
+        category: 2
+        market: 2

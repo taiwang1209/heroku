@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>PTT爬蟲練習</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <style>
+        body{
+            font-family: 微軟正黑體;
+        }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+        }
+        </style>
+
+        <link href="https://getbootstrap.com/docs/4.3/examples/floating-labels/floating-labels.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/index/show/" method="POST" class="form-signin">{% csrf_token %}
+            <div class="text-center mb-4">
+                <h1 class="h3 mb-3 font-weight-normal">Django爬蟲練習</h1>
+            </div>
+            <div class="input-group mb-3">
+                <input type="url" class="form-control" name="url" placeholder="請輸入網址">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-success" type="submit" id="button-addon2"><i class="fas fa-search"></i></button>
+                </div>
+                
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-primary" onclick="location.href='/index/gallery'">點擊看畫廊</button>
+            </div>
+
+            <p class="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
+        </form>
+    </body>
+</html>
